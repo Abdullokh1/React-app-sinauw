@@ -1,0 +1,11 @@
+.class-title-wrapper{
+  text-align: center;
+}
+.class-title{
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.class-text{
+  color: rgba(255, 255, 255, 0.4);
+}

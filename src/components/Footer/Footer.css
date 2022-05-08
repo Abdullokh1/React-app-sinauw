@@ -1,0 +1,33 @@
+.footer-text{
+  color: rgba(255, 255, 255, 0.8);
+  opacity: 0.6;
+}
+.footer-icon{
+  font-size: 30px;
+  color: #acabbf;
+  transition: all 0.3s ease;
+}
+.footer-icon:hover{
+  color: #f5443b;
+}
+.footer-menus{
+  font-size: 20px;
+}
+.footer-left{
+  margin-right: 200px;
+}
+.footer-links{
+  color: rgba(255, 255, 255, 0.7);
+  opacity: 0.6;
+  line-height: 40px;
+}
+.footer-links:nth-child(1){
+  color: #fff;
+  font-weight: 700;
+}
+.footer-links:hover{
+  color: #fff;
+}
+.footer-copy{
+  color: #8f91d0;
+}

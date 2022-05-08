@@ -1,0 +1,28 @@
+.hero-input{
+  background-color: #1F2143;  
+  border: none;
+  color: #fff;
+  width: 500px;
+  height: 68px;
+  border-radius: 12px;
+  padding-left: 20px;
+  padding-right: 100px;
+
+}
+.hero-input:focus{
+  outline: none;
+}
+.hero-input-wrapper{
+  position: relative;
+}
+.bx-search{
+  position: absolute;
+  right: 110px;
+  font-size: 25px;
+  color: #fff;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #282B57;
+  padding: 10px;
+  border-radius: 12px;
+}

@@ -1,0 +1,70 @@
+.price-items{
+  background: linear-gradient(180deg, #202246 -53.38%, rgba(40, 43, 87, 0.31) 100%);
+  border-radius: 20px;
+  width: 372px;
+  height: 510px;
+  padding: 36px;
+  position: relative;
+}
+.price-items:last-child::before{
+  content: '';
+  background-image: url('/public/PricingImgs/popular-img.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 121px;
+  height: 121px;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.price-items:not(:last-child){
+  margin-right: 42px;
+}
+.price-type{
+  color: rgba(255, 255, 255, 0.8);
+}
+.price-info{
+  color: #f5453f;
+  font-weight: 700;
+  font-size: 28px;
+}
+.price-plan{
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.8);;
+}
+.price-btn{
+  position: absolute;
+  bottom: 36px;
+  left: 36px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #f5443b;
+  border: none;
+  background-color: transparent;
+  border: 1px solid #f5443b;
+  border-radius: 6px;
+  width: 80%;
+  height: 50px;
+  transition: all 0.4s ease;
+}
+.price-btn:hover{
+  background-color: #f5443b;
+  color: #fff;
+}
+.plan-info{
+  line-height: 40px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.plan-info::before{
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: #9799ce;
+  border-radius: 50%;
+  margin-right: 10px;
+  display: inline-block;
+}
+.pricing-section{
+  margin-bottom: 150px;
+}

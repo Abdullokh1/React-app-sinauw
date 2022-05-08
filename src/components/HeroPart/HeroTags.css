@@ -1,0 +1,21 @@
+.hero-tag-title{
+  color: rgba(255, 255, 255, 0.4);
+}
+.hero-tag-item{
+  border: 1px solid rgba(154, 156, 203, 0.6);
+  border-radius: 8px;
+  padding: 8px 18px;
+  margin: 10px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.hero-tag-item:hover{
+  transform: translate(0,-4px);
+}
+.hero-tag-link{
+  font-size: 14px;
+  color: #9a9ccb99;
+}
+.hero-tag-link:hover{
+  color: #9a9ccb99;
+}

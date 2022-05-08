@@ -1,0 +1,17 @@
+.stats-item{
+  color: rgba(255, 255, 255, 0.7);
+  position: relative;
+  font-size: 14px;
+}
+.stats-item:not(:last-child){
+  margin-right: 100px;
+}
+
+.stats-img-wrapper{
+  position: absolute;
+  left: -70px;
+  top: -10px;
+}
+.stats-section{
+  margin-bottom: 150px;
+}

@@ -1,0 +1,54 @@
+.nav-link{
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.8);
+}
+.nav-link:hover{
+  color: #fff;
+}
+.nav-logo{
+  margin-right: 130px;
+}
+
+.globe-btn{
+  background-color: transparent;
+  border: none;
+}
+.bx-globe{
+  font-size: 20px;
+  color: #fff;
+  position: relative;
+  top: 3px;
+}
+.lang-select{
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  width: 51px;
+  cursor: pointer;
+}
+.lang-select:focus{
+  outline: none;
+}
+.nav-list{
+  flex-grow: 1;
+}
+.login-btn{
+  font-weight: bold;
+  font-size: 14px;
+  color: #fff;
+  background: #f5443b;
+  border-radius: 6px;
+  border: none;
+  padding: 8px 32px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.login-btn:hover{
+  background-color: #ae241d;
+}
+.country-option{
+  background-color: #171836;
+  color: #fff;
+  font-size: 15px;
+}

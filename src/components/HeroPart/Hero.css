@@ -1,0 +1,24 @@
+.hero-img{
+  object-fit: cover;
+}
+.hero-img-wrapper{
+  position: relative;
+  left: -120px; 
+}
+.hero-users{
+  position: absolute;
+  right: 0;
+  bottom: 50px;
+}
+.hero-text{
+  font-size: 56px;
+  width: 480px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.hero-sub-text{
+  color: rgba(255, 255, 255, 0.4);
+}
+.hero-section{
+  margin-bottom: 100px;
+}
